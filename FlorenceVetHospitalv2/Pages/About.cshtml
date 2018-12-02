@@ -1,0 +1,65 @@
+﻿@page
+@model FlorenceVetHospitalv2.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <h1 class="pageHeading">About Us</h1>
+
+    <div class="row">
+        <div class="col-md-7">
+
+            <p>
+                Information about the new location and photos of the new location.
+            </p>
+
+            <div class="polaroid">
+
+                <img src="~/images/receptionfvh.jpg" alt="Angie at Computer" style="width:100%" />
+
+                <div class="polaroidText">
+                    <p>Reception area</p>
+                </div>
+
+            </div>
+
+
+
+        </div> @*end first column*@
+
+        <div class="col-md-5">
+            <h2 class="centerTitle">VetSource Online Pharmacy</h2>
+            <p>
+                We have partnered with an online pharmacy by the name of VetSsource.  This will give us the opportunity to offer products that we normally don't carry in our office inventory.
+                It will give our clients an opportunity to purchase products that come directly from a reliable vendor.
+            </p>
+            <p>
+                These products can be shipped directly to the client's home with pricing that
+                beats other online pharmacies.  Not only will our clients get low online price offers, but they will also get the same rebate offers that are available through our office.
+            </p>
+            <p>
+                * Prescriptions will only be filled for patients who are active in our records.
+            </p>
+
+            <div class="VSbutton">
+                <a href="http://theflorencevethospital.vetsourceweb.com/site/view/site/view/HomeDelivery.pml?retUrl=http://florencevethospital.com/" target="_blank"><img src="images/VetSource.png" border="0" class="linkBanner img-responsive" alt="VetSource Home Delivery" /></a>
+            </div>
+
+
+        </div> @*end vetsource column*@
+
+    </div> @*end first row*@
+
+    <div class="col-xs-12 col-md-12">
+       
+    </div>
+
+
+
+
+    <img src="~/images/BBB100.jpg" alt="better business bureau logo" class="img-responsive" />
+
+</div> @*end container*@

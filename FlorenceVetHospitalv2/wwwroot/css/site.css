@@ -1,0 +1,317 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+    line-height: 150%;
+ 
+}
+
+/*html {
+    margin: 0;
+    padding: 0;
+}*/
+
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+/* Carousel */
+/*.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;*/
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+/*.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}*/
+
+/* QR code generator */
+/*#qrCode {
+    margin: 15px;
+}*/
+
+/* Hide/rearrange for smaller screens */
+/*@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}*/
+
+
+/*Header CSS*/
+
+.headerTop {
+    background-color: #fece67;
+    height: auto;
+    margin-top: 0px;
+}
+
+.headerMainText, .headerSubText {
+    color: black;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+}
+
+.headerMainText {
+    font-size: 35px;
+}
+
+.headerSubText {
+    font-size: 25px;
+}
+
+.headerInfo {
+    color: black;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 85%;
+    margin-top: 10px;
+}
+
+.navbar-inverse {
+    background-color: #60221f;
+    color: white;
+}
+
+navbar nav {
+    color: white;
+}
+
+#overrideTitle {
+    color: white;
+}
+
+#overrideNav li a {
+    color: white;
+}
+
+.headerContact {
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+    .headerContact {
+        display: none;
+    }
+}
+
+#headPhone {
+    color: black;
+    text-decoration: none;
+}
+
+/*Site wide*/ 
+
+.pageHeading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Calibri;
+
+}
+
+.sectionTitle {
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+/*Index page CSS*/
+
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.linkStyle {
+    color: black;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.centerTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Corbel;
+  
+}
+
+.welcomeText {
+    text-align: justify;
+    font-weight: 400;
+  
+}
+
+.infoItems {
+    text-align: justify;
+    padding: 30px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+div buttonDiv {
+    
+}
+
+#b_style {
+    background: #60221f;
+    border-color: #60221f;
+
+}
+
+#b_style:visited {
+    background: #60221f;
+    border-color: #60221f;
+}
+
+#b_style:hover {
+    background: #660000;
+    border-color: #660000;
+}
+
+
+#b_style:active {
+    background: #60221f;
+    border-color: #60221f;
+ }
+
+.quote {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.laserTherapyText {
+    text-align: justify;
+}
+
+
+/*Pet Services CSS*/
+
+
+/*Vets.cshtml CSS*/
+
+/*.drsInfo {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}*/
+
+.sectionLeadIn {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+Staff Page
+
+.staffHeading {
+    font-size: 22px;
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.polaroidText {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+
+/*Footer CSS*/
+
+.footerElement {
+  
+    border-top-style: ridge;
+    border-top-width: 10px;
+    border-top-color: #60221f;
+    color: black;
+    margin-right: -50px;
+    margin-top: 50px;
+     
+}
+
+.business-hours .office-hours li.today {
+    color: black;
+    font-weight: 600;
+    
+
+}
+
+.business-hours li {
+    margin-right: 10px;
+}
+/*list-unstyled office-hours li {
+    margin-right: 10px;
+}*/
+
+
+#footPhone {
+    color: black;
+    text-decoration: none;
+}
+
+#gmText {
+    color: black;
+    text-decoration: none;
+}
+
+#fbText {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .headerMainText {
+        font-size: 20px;
+    }
+
+    .headerSubText {
+        font-size: 15px;
+    }
+
+    .headerInfo {
+        font-size: 10px;
+    }
+
+    .headerInfo {
+        display: none;
+    }
+    /*.headerTop {
+        background-color: #febc28;
+    }*/
+
+    
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .headerSubText {
+        font-size: 20px;
+    }
+
+    .headerMainText {
+        font-size: 25px;
+    }
+}

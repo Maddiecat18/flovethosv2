@@ -1,0 +1,90 @@
+﻿@page
+@model FlorenceVetHospitalv2.Pages.VetSourceModel
+@{
+    ViewData["Title"] = "Our Vets";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+
+    <h1 class="pageHeading">Meet Our Doctors</h1>
+
+    <div class="col-md-12 drsInfo">
+        <div class="row ">
+            <p class="sectionLeadIn">
+                Drs. Davis and Garofolo enjoy all aspects of veterinary medicine and have a great deal of
+                experience in orthopedic and soft tissue surgery.
+            </p>
+        </div>
+    </div>
+
+
+    <!--div for image of Dr. Davis-->
+    <div class="row">
+        <div class="col-md-4 vetImage">
+            <img src="~/images/DrDanD.jpg" class="image-responsive" alt="Dr. Davis with Pumpkin, the clinic mascot, an orange tabby cat" />
+        </div>
+
+
+        <div class="col-md-5">
+            <div class="DJDInfo">
+                <h3 class="nameTitle">Daniel J. Davis, DVM </h3>
+                <p>
+                    Dr. Daniel J. Davis is a 1994 graduate of Auburn University College of Veterinary Medicine. Upon graduation, Dr. Davis practiced at the Grants Lick
+                    Veterinary Hospital and its branch office in Pendleton County.
+                </p>
+                <p class="photoCap">
+                    Pictured: Dr. Davis with "Pumpkin", our clinic mascot
+                </p>
+            </div>
+        </div>
+
+    </div> @*ending div for the dr. davis row*@
+
+    <div class="row">
+        <div class="col-md-4 vetImage">
+            <img src="~/images/Dr. Paul G.jpg" class="image-responsive" alt="Dr. Garofolo standing in front of the mobile veterinary van" />
+        </div>
+
+        <div class="col-md-5">
+            <div class="PAGInfo">
+                <h3 class="nameTitle">Paul A. Garofolo, DVM</h3>
+                <p>
+                    Dr. Paul A. Garofolo is a 1986 graduate of Auburn University. He was previously the owner and veterinarian at the Shelby Street and Grants Lick
+                    Veterinary Hospitals.
+                </p>
+
+                <p class="photoCap">
+                    Pictured: Dr. Garofolo next to the veterinary mobile unit.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4 vetImage">
+            <img src="#" class="image-responsive" alt="Dr. Shepherd" />
+        </div>
+
+        <div class="col-md-5">
+            <div class="PAGInfo">
+                <h3 class="nameTitle">Allison Shepherd, DVM</h3>
+                <p>
+                    Dr. Allison Shepherd is a 1986 graduate of Tuskegee Veterinary College. Dr. Shepherd comes to us with many years of veterinary emergency experience. She married her high school
+                    sweetheart, Brice, and they have two daughters.  Allison enjoys gardening and cooking. Their family enjoys spending time with their multiple dogs and cats.
+                </p>
+
+                <p class="photoCap">
+                    Pictured: Dr. Shepherd.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+</div> @*ending div for the container class*@

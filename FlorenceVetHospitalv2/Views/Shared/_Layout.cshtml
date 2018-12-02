@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @*<title>@ViewData["Title"] - Florence Veterinary Hospital</title>*@
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <script src="~/js/staff.js"></script>
+    </environment>
+
+
+</head>
+
+
+<body>
+
+    <div class="headerTop">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-2 col-xs-3">
+                        <img src="~/images/dogandCatGold1.jpg" class="img-responsive" alt="Dog and Cat Logo" />
+                    </div>
+
+                    <div class="col-md-6 col-xs-9 headerText ">
+                        <p class="headerMainText">Florence Veterinary Hospital</p>
+                        <p class="headerSubText">&amp; Mobile Veterinary Service</p>
+                    </div>
+                    <div class="headerContact col-md-4 col-xs-0">
+                        <p class="headerInfo">Daniel J. Davis, DVM</p>
+                        <p class="headerInfo">Paul A. Garofolo, DVM</p>
+                        <p class="headerInfo">7801 US Highway 42</p>
+                        <p class="headerInfo">Florence, KY 41042</p>
+                        <p class="headerInfo"><a class="phoneLink" href="tel: 859-371-6501">859-371-6501</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" id="overrideTitle" class="navbar-brand">Florence Veterinary Hospital <span class="glyphicon glyphicon-home"></span> </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul id="overrideNav" class="nav navbar-nav">
+                    <li><a href="~/About">About Us</a></li>
+                    <li><a href="~/PetServices">Pet Services</a></li>
+                    <li><a href="~/LaserTherapy">Laser Therapy</a></li>
+                    <li><a href="http://theflorencevethospital.vetsourceweb.com/site/view/site/view/HomeDelivery.pml?retUrl=http://florencevethospital.com/" target="_blank">VetSource</a></li>
+                    <li><a href="~/NewClients">New Clients</a></li>
+                    <li><a href="~/Staff">Staff</a></li>
+                    <li><a href="~/Vets">Meet the Doctors</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+        <footer>
+            <div class="container">
+
+                <div class="row footerElement">
+                    <div class="col-md-4 locationInfo">
+                        <h3>
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            Location
+                        </h3>
+                        <p>7801 US Highway 42</p>
+                        <p>Florence KY 41042</p>
+                        <p>
+                            <a id="gmText" href="#">
+                                <span class="glyphicon glyphicon-map-marker"> </span>
+                                Google Maps
+                            </a>
+                        </p>
+
+                        <p>
+                            <a id="fbText" class="phoneLink" title="Facebook" target="_blank" href="https://www.facebook.com/pages/Florence-Veterinary-Hospital/183975792907?_rdr=p"><img src="~/images/Facebook-32.png" alt="Follow Us on Facebook" /> Follow Us </a>
+                        </p>
+
+                    </div> @*close "locationInfo"*@
+
+                    <div class="col-md-4 contactInfo">
+
+                        <h3>
+                            <span class="glyphicon glyphicon-phone"></span>
+                            Contact Us
+                        </h3>
+                        <p>Please call for an appointment</p>
+                        <p><a id="footPhone" class="phoneLink" href="tel:8593716501">Phone: 859-371-6501</a></p>
+                        <p>Fax: 859-371-8662</p>
+                        <p>New clients are welcome!</p>
+
+
+                    </div>  @*close contactInfo*@
+
+                    <div class="col-md-4 business-hours">
+                        @*<div class="row business-hours">*@
+                        @*<div class="col-md-12">*@
+
+                        <h3 class="title">
+                            <span class="glyphicon glyphicon-time"></span>
+                            Office Hours
+                        </h3>
+
+                        <ul class="list-unstyled office-hours">
+
+                            <li>Monday <span class="pull-right">8AM to 7PM</span></li>
+                            <li>Tuesday <span class="pull-right">8AM to 7PM</span></li>
+                            <li>Wednesday <span class="pull-right">8AM to 7PM</span></li>
+                            <li>Thursday <span class="pull-right">8AM to 6PM</span></li>
+                            <li>Friday <span class="pull-right">8AM to 5PM</span></li>
+                            <li>Saturday <span class="pull-right">8AM to Noon</span></li>
+                            <li>Sunday <span class="pull-right">Closed</span></li>
+                        </ul>
+
+                    </div>  @*close hoursInfo*@
+
+
+                    <div class="footer-copyright text-center py-3"> &copy; @DateTime.Now.Year - Florence Veterinary Hospital</div>
+
+                </div> @*close information row*@
+            </div>  @*close information container*@
+        </footer>
+    </div>  @*close body content div*@
+
+
+        <environment include="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+            <script src="~/js/footer.js" asp-append-version="true"></script>
+        </environment>
+        <environment exclude="Development">
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+            </script>
+            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+            </script>
+            <script src="~/js/site.min.js" asp-append-version="true"></script>
+        </environment>
+
+        @RenderSection("Scripts", required: false)
+</body>
+</html>
