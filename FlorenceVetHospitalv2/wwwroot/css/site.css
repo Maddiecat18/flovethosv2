@@ -112,6 +112,10 @@ navbar nav {
     text-decoration: none;
 }
 
+.headerText {
+    margin-top: 10px;
+}
+
 /*Site wide*/ 
 
 .pageHeading {
