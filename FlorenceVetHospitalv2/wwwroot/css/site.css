@@ -135,6 +135,8 @@ navbar nav {
 
 
 
+
+
 h1{
     font-weight: 600;
     font-size: 18px;
@@ -231,6 +233,12 @@ div buttonDiv {
 .sectionLeadIn {
     font-weight: 500;
     font-size: 18px;
+}
+
+/*Laser Therapy Page*/
+
+.laserImage {
+    margin-top: 35px;
 }
 
 /*Staff Page*/
