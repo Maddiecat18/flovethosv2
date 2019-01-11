@@ -130,6 +130,10 @@ navbar nav {
     font-family: Calibri;
 }
 
+.phoneLink {
+    text-decoration: underline;
+}
+
 /*Index page CSS*/
 
 
@@ -291,10 +295,10 @@ div.polaroidText {
 }*/
 
 
-#footPhone {
+/*#footPhone {
     color: black;
     text-decoration: none;
-}
+}*/
 
 #gmText {
     color: black;
@@ -330,6 +334,8 @@ div.polaroidText {
     
 }
 
+/*media styles*/
+
 @media only screen and (max-width: 1200px) {
     .headerSubText {
         font-size: 20px;
@@ -337,5 +343,19 @@ div.polaroidText {
 
     .headerMainText {
         font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1285px) {
+    a[href^='tel:'] {
+        text-decoration: underline;
+        color: #337ab7;
+    }
+}
+
+@media only screen and (min-width: 1285px) {
+    a[href^='tel:'] {
+        text-decoration: none;
+        color: black;
     }
 }
