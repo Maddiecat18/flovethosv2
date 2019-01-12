@@ -121,7 +121,7 @@ navbar nav {
 .pageHeading {
     font-size: 30px;
     font-weight: 600;
-    font-family: Calibri;
+    font-family: Calibri sans-serif;
 
 }
 
@@ -132,6 +132,12 @@ navbar nav {
 
 .phoneLink {
     text-decoration: underline;
+}
+
+
+.polaroidText {
+    font-family: 'Segoe Script' 'Arial Rounded MT' sans-serif;
+    font-weight: 900;
 }
 
 /*Index page CSS*/
@@ -221,6 +227,20 @@ div buttonDiv {
     box-shadow: 0 0 5px #aaaaaa;
 }
 
+.bbbLogo {
+    margin-top: 15px;
+}
+
+#vetSourceText {
+    
+    margin-bottom: 15px;
+}
+
+#aboutContact {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 /*Pet Services CSS*/
 
@@ -245,10 +265,22 @@ div buttonDiv {
     margin-top: 35px;
 }
 
+/*New Clients page*/
+
+.newClient {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+
 /*Staff Page*/
 
 .staffHeading {
     font-size: 22px;
+}
+
+.staffPending {
+    font-style: italic;
 }
 
 div.polaroid {
@@ -262,6 +294,10 @@ div.polaroid {
 div.polaroidText {
     text-align: center;
     padding: 10px 20px;
+}
+
+.staffPhoto {
+    margin-top: 30px;
 }
 
 
