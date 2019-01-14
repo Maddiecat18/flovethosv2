@@ -242,6 +242,10 @@ div buttonDiv {
     font-weight: 600;
 }
 
+.aboutText {
+    text-align: justify;
+}
+
 /*Pet Services CSS*/
 
 
@@ -257,6 +261,10 @@ div buttonDiv {
 .sectionLeadIn {
     font-weight: 500;
     font-size: 18px;
+}
+
+.vetInfo {
+    text-align: justify;
 }
 
 /*Laser Therapy Page*/
@@ -279,8 +287,8 @@ div buttonDiv {
     font-size: 22px;
 }
 
-.staffPending {
-    font-style: italic;
+.staffListing {
+    text-align: justify;
 }
 
 div.polaroid {
