@@ -76,6 +76,12 @@
     margin-top: 10px;
 }
 
+#paymentText {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+}
+
 .navbar-inverse {
     background-color: #60221f;
     color: white;
@@ -106,6 +112,8 @@ navbar nav {
         display: none;
     }
 }
+
+
 
 #headPhone {
     color: black;
@@ -301,6 +309,18 @@ div.polaroidText {
     margin-right: -50px;
     margin-top: 50px;
      
+}
+
+#footerPayText {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+@media screen and (min-width: 991px) {
+    #footerPayText {
+        display: none;
+    }
 }
 
 .business-hours .office-hours li.today {
