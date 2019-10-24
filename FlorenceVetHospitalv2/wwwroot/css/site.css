@@ -148,6 +148,10 @@ navbar nav {
     box-shadow: 0 0 5px #aaaaaa;
 }
 
+element.style {
+    width: unset;
+}
+
 /*Index page CSS*/
 
 h1{
@@ -219,7 +223,13 @@ p a:hover {
 
 /*About page*/
 
+.aboutText {
+    padding-right: 20px;
+}
 
+.auImage {
+    margin-top: 25px;
+}
 
 .bbbLogo {
     margin-top: 15px;
@@ -242,6 +252,10 @@ p a:hover {
 }
 
 /*Pet Services CSS*/
+
+.psImage {
+    margin-top: 25px;
+}
 
 
 /*Vets.cshtml CSS*/
