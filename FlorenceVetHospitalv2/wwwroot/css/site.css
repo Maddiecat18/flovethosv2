@@ -194,6 +194,12 @@ element.style {
 
 /*Index page CSS*/
 
+#alert {
+    text-align: justify;
+}
+
+ 
+
 h1{
     font-weight: 600;
     font-size: 18px;
