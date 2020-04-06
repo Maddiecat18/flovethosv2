@@ -21,30 +21,6 @@
     padding-right: 15px;
 }*/
 
-/* Carousel */
-/*.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}*/
-
-/* Make .svg files in the carousel display properly in older browsers */
-/*.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}*/
-
-/* QR code generator */
-/*#qrCode {
-    margin: 15px;
-}*/
-
-/* Hide/rearrange for smaller screens */
-/*@media screen and (max-width: 767px) {
-
-    .carousel-caption {
-        display: none;
-    }
-}*/
-
 
 /*Header CSS*/
 
@@ -114,19 +90,7 @@ navbar nav {
     color: #990000;
 }
 
-/*@media screen and (max-width: 700px) {
-    .headerContact {
-        display: none;
-    }
 
-    .headerSubText {
-        display: none;
-    }
-
-    .headerPhone {
-        display: none;
-    }
-}*/
 
 @media only screen and (max-width: 990px) {
     #textHide {
