@@ -311,6 +311,34 @@ p a:hover {
     padding-top: 25px;
 }
 
+.clientForm {
+    background-color: #60221f;
+    color: white;
+    text-decoration: none;
+      
+}
+
+#formButton a:visited,
+#formButton a:hover,
+#formButton a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+#formButton2 a:visited,
+#formButton2 a:hover,
+#formButton2 a:active
+{
+    color: white !important;
+    text-decoration: none;
+}
+
+
+#formButton {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
 
 
