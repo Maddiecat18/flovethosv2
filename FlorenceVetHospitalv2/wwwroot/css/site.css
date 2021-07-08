@@ -196,6 +196,10 @@ p a:hover {
     margin-top: 35px;
 }
 
+#newLocation {
+    padding-bottom: 50px;
+}
+
 
 
 #b_style {
@@ -228,6 +232,8 @@ p a:hover {
 .laserTherapyText {
     text-align: justify;
 }
+
+
 
 /*About page*/
 
