@@ -378,27 +378,48 @@ div.polaroidText {
     padding-top: 25px;
 }
 
-Pet Information
+/*Pet Information*/
 
 .petInfo {
     font-size: 22px;
     color: #60221f;
 }
 
+.infoSectionTitle {
+    text-align: center;
+}
 
+.infoSectionText {
+    text-align: justify;
+}
 
+.nav-pills > li.active > a {
+    background-color: #60221f;
+    color: white;
+}
 
+    .nav-pills > li.active > a:visited {
+        background-color: #60221f;
+        color: white;
+    }
+
+    .nav-pills > li.active > a:hover {
+        background-color: #60211f;
+        color: black;
+    }
+
+    .nav-pills > li.active > a:active {
+        background-color: #60211f;
+        color: white;
+    }
 /*Footer CSS*/
-
 .footerElement {
-  
     border-top-style: ridge;
     border-top-width: 10px;
     border-top-color: #60221f;
     color: black;
     margin-right: -50px;
     margin-top: 50px;
-     
 }
 
 #footerPayText {
