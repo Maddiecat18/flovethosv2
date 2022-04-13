@@ -7,6 +7,24 @@
  
 }
 
+.iconSize {
+    font-size: 72px;
+    text-align: center;
+}
+
+.vetDescription {
+    margin-top: 30px;
+    
+}
+
+#shepherdCard {
+    padding-bottom: 133px;
+}
+
+#wolfeCard {
+    padding-bottom: 94px;
+}
+
 /*html {
     margin: 0;
     padding: 0;
