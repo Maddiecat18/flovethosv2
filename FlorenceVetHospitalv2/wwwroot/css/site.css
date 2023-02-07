@@ -42,6 +42,15 @@
 }*/
 
 
+    /*Rules for the Preview Page Only*/
+
+    #petPortalPre {
+
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+
     /*Header CSS*/
 
     .headerTop {
@@ -212,9 +221,19 @@
         padding: 30px;
         box-shadow: 0 0 10px #888888;
         margin-top: 35px;
+       
     }
 
-    #newLocation {
+.card {
+    text-align: justify;
+    padding: 30px;
+    border:2px solid black;
+  
+}
+
+
+
+    .newLocation {
         padding-bottom: 50px;
     }
 
@@ -222,7 +241,7 @@
         padding-bottom: 21px;
     }
 
-
+   
 
     #b_style {
         background: #60221f;
