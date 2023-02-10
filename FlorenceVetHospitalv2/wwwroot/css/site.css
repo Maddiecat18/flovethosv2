@@ -216,20 +216,13 @@
         font-weight: 400;
     }
 
-    .infoItems {
-        text-align: justify;
-        padding: 30px;
-        box-shadow: 0 0 10px #888888;
-        margin-top: 35px;
-       
-    }
-
-.card {
+.infoItems {
     text-align: justify;
     padding: 30px;
-    border:2px solid black;
-  
+    box-shadow: 0 0 10px #888888;
+    margin-top: 35px;
 }
+
 
 
 
